@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BeastChess</string>
+    <string name="welcome">Welcome to BeastChess!</string>
+    <string name="VsComputer">VS Computer</string>
+    <string name="VsHuman">VS Human</string>
+    <string name="ExitGame">Exit Game</string>
+    <string name="interact_message">Entering the game...</string>
+</resources>

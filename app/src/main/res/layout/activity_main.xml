@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/cs20180528220623">
+
+
+    <TextView
+        android:id="@+id/Slogan"
+        android:layout_width="0dp"
+        android:layout_height="182dp"
+        android:layout_marginBottom="152dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textColor="#009ACD"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ExitGame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/VsHumanButton"
+        android:layout_width="122dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="197dp"
+        android:text="@string/VsHuman"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Slogan"
+        app:layout_constraintVertical_bias="0.971" />
+
+    <Button
+        android:id="@+id/VsComputerButton"
+        android:layout_width="130dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="269dp"
+        android:text="@string/VsComputer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Slogan"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/ExitGame"
+        android:layout_width="123dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="129dp"
+        android:text="@string/ExitGame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Slogan" />
+</android.support.constraint.ConstraintLayout>
